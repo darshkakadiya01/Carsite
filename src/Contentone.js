@@ -48,85 +48,111 @@ function ContentOne() {
   };
 
   return (
-    <div className="Contentone-main-container">
-
-      {/* HERO */}
-      <div className="Contentone-main-container-divone">
-        <img
-          src="photo-1492144534655-ae79c964c9d7.jpg"
-          alt="professional auto repair workshop"
-          className="Contentone-main-container-divone-image"
-        />
-        <div className="Contentone-main-container-divone-text">
-          <h1>Expert Car Repair & 24/7 <br /> Roadside Assistance</h1>
-        </div>
+<div className='Contentone-main-container'>
+      <div className='Contentone-main-container-divone'>
+        <img src='photo-1492144534655-ae79c964c9d7.jpg' alt='main image' className='Contentone-main-container-divone-image' />
+        <div className='Contentone-main-container-divone-text'><h1>Expert Car Repair & 24/7 <br></br> Roadside Assistanc</h1></div>
       </div>
 
-      {/* WHY US */}
-      <div className="Contentone-main-container-divtwo">
+      <div className='Contentone-main-container-divtwo'>
         <h3>Why We Exist</h3>
-        <h1 className="Contentone-main-container-divtwo-h1">
-          We’re a trusted auto repair center offering <br />
-          fast, honest, and high-quality service. <br />
-          Certified technicians treat every car <br />
-          like it’s their own.
+        <h1 className='Contentone-main-container-divtwo-h1'>We’re a trusted auto repair center offering<br></br>
+          fast, honest, and high quality service. Our<br></br>
+          certified technicians treat every car with<br></br>
+          expert care  like it’s their own.
         </h1>
       </div>
 
-      {/* SERVICES */}
-      <div className="Contentone-main-container-divthree">
-        <h1 className="Contentone-main-container-divthree-h1">
-          Our Auto Services <br /> Everything Your Car Needs
-        </h1>
-        <p className="Contentone-main-container-divthree-p">
-          From quick fixes to full diagnostics, we offer expert car services backed
-          by certified technicians and quality parts.
-        </p>
+      <div className='Contentone-main-container-divthree'>
+        <h1 className='Contentone-main-container-divthree-h1'>Our Auto Services Everything <br></br> Your Car Needs</h1>
+        <p className='Contentone-main-container-divthree-p'>From quick fixes to full diagnostics, we offer expert car services to keep you safely on the <br></br> road. Backed by certified technicians and quality parts.</p>
       </div>
 
-      <div className="Contentone-main-container-divfour">
-        <img
-          src="expert-car-repair-skilled-mechanic-600nw-2350845915.jpg"
-          alt="skilled mechanic repairing a vehicle"
-          className="Contentone-main-container-divfour-image"
-        />
+      <div className='Contentone-main-container-divfour'>
+        <img src='expert-car-repair-skilled-mechanic-600nw-2350845915.jpg' alt='service image' className='Contentone-main-container-divfour-image' />
       </div>
 
-      {/* SERVICE CARDS */}
-      <div className="Contentone-main-container-divfive">
-        <div className="Contentone-main-container-divfive-divone">
-          <h3>Engine Diagnostics</h3>
-          <p>Advanced diagnostic tools to identify engine issues and performance drops.</p>
+      <div className='Contentone-main-container-divfive'>
+        <div className='Contentone-main-container-divfive-divone'>
+          <h3 className='Contentone-main-container-divfive-divone-h1'>Engine Diagnostics</h3>
+          <p>We use advanced diagnostic tools to quickly <br></br> identify engine issuse, warning lights, or <br></br> performance drops</p>
         </div>
 
-        <div className="Contentone-main-container-divfive-divtwo">
-          <h3>Mechanical Repairs</h3>
-          <p>Complete repair solutions for engines, transmissions, and mechanical systems.</p>
+        <div className='Contentone-main-container-divfive-divtwo'>
+          <h3 className='Contentone-main-container-divfive-divtwo-h1'>Mechanical Repairs</h3>
+          <p>From engine problems to transmission issues, <br></br> our expert mechanics diagnose and repair all <br></br> major mehanical systems.</p>
         </div>
       </div>
 
-      <div className="Contentone-main-container-divsix">
-        <div className="Contentone-main-container-divfive-divthree">
-          <h3>Safety Systems</h3>
-          <p>Inspection and servicing of brakes, airbags, ABS, sensors, and lighting.</p>
+      <div className='Contentone-main-container-divsix'>
+        <div className='Contentone-main-container-divfive-divthree'>
+          <h3 className='Contentone-main-container-divfive-divthree-h1'>Safety Systems</h3>
+          <p>Your sefety is our priority. We inspect and service essential systems like breaks, airbags, ABS, sensore, and lighting</p>
         </div>
 
-        <div className="Contentone-main-container-divfive-divfour">
-          <h3>Routine Maintenance</h3>
-          <p>Oil changes, filter replacement, tire rotation, and fluid checks.</p>
+        <div className='Contentone-main-container-divfive-divfour'>
+          <h3 className='Contentone-main-container-divfive-divfour-h1'>routine Maintenance</h3>
+          <p>Keep your car running like new eith regular  oil change, filter replacement, tire rotations, and fluid checks.</p>
         </div>
       </div>
 
-      {/* BEFORE / AFTER */}
-      <div className="Contentone-main-container-divseven">
-        <h1 className="Contentone-main-container-divseven-h1">
-          Experience the difference before and after <span className="divseven-span">expert repair</span>
-        </h1>
-        <img
-          src="687458d76aa822964e6995b6_New.png from Squoosh (1).avif"
-          alt="car condition comparison before and after repair"
-          className="Contentone-main-container-divseven-image"
-        />
+      <div className='Contentone-main-container-divseven'>
+        <div>
+          <h1 className='Contentone-main-container-divseven-h1'>Experience the difference before and after <span className='divseven-span'>expert <br></br> repair.</span></h1>
+          <img src='687458d76aa822964e6995b6_New.png from Squoosh (1).avif' alt='before after image' className='Contentone-main-container-divseven-image' />
+        </div>
+      </div>
+
+      <div className='Contentone-main-container-diveight'>
+        <h1 className='Contentone-main-container-diveight-h1'>Curated Experiences & Exclusive Amenities</h1>
+        <hr className="contentone-hr" />
+
+        <div className='Contentone-main-container-diveight-divone'>
+          <div className='diveight-divone-divone'>
+            <h1 className='diveight-divone-divone-h3'>Genuine Parts Only</h1>
+            <p className='diveight-divone-divone-p'>At AutoPulse, we use only genuine, manufacturer-approved parts—brake pads, <br>
+            </br>filters, belts, and more—to ensure perfect fit and lasting performance. Our <br>
+            </br> commitment protects your factory warranty and keeps your car running reliably. <br>
+            </br>Trust us for repairs that use the best parts for your vehicle’s safety and longevity.</p>
+            <img src='68872fd2254f073c0e88c627_Mechanic Picture.avif' alt='check icon' className='diveight-divone-divone-image' />
+          </div>
+        </div>
+
+        <div className='Contentone-main-container-diveight-divone'>
+          <div className='diveight-divone-divone'>
+            <h1 className='diveight-divone-divone-h3'>Certified Technicians</h1>
+            <p className='diveight-divone-divone-p'>At AutoPulse, our certified technicians bring years of specialized training and<br>
+            </br>fhands-on experience to every job. Backed by ASE and factory certifications, they   <br>
+            </br>diagnose issues with pinpoint accuracy and execute repairs to the highest<br>
+            </br>industry standards. You can rest easy knowing your vehicle is in expert hands<br>
+            </br>committed to quality and safety.</p>
+            <img src='68872fd2ac5ec66e4b354e72_Mechanic Picture from Unsplash (5).avif' alt='check icon' className='diveight-divone-divone-image' />
+          </div>
+        </div>
+
+        <div className='Contentone-main-container-diveight-divone'>
+          <div className='diveight-divone-divone'>
+            <h1 className='diveight-divone-divone-h3'>Easy to Reach Location</h1>
+            <p className='diveight-divone-divone-p'>Our shop sits just off the I-405 corridor in the heart of Los Angeles, making us<br>
+            </br>easy to find whether you’re coming from downtown or the coast. Plenty of free   <br>
+            </br>parking and nearby transit stops mean stress-free drop-offs and pickups. Swing <br>
+            </br>by anytime—we’re always here to keep you moving.</p>
+            <img src='68872fd249596497c6b1e0bf_Mechanic Picture from Unsplash (2).avif' alt='check icon' className='diveight-divone-divone-image' />
+          </div>
+        </div>
+
+        <div className='Contentone-main-container-diveight-divone'>
+          <div className='diveight-divone-divone'>
+            <h1 className='diveight-divone-divone-h3'>Guaranteed Fix</h1>
+            <p className='diveight-divone-divone-p'>At AutoPulse, we stand behind our work with the AutoPulse Guaranteed Fix<br>
+            </br>promise: if the same problem resurfaces within 12 months or 12,000 miles, we’ll<br>
+            </br>make it right at no extra cost. Our meticulous diagnostics and quality parts mean<br>
+            </br>fewer comebacks, but if anything slips through, you’ll never pay again for the<br>
+            </br>same repair. Drive with confidence knowing our promise keeps you covered—<br>
+            </br>and satisfied—every mile of the way.</p>
+            <img src='68872fd3ea8f52f9e4069555_Mechanic Picture from Unsplash (3).avif' alt='check icon' className='diveight-divone-divone-image' />
+          </div>
+        </div>
       </div>
 
       {/* TESTIMONIALS */}
