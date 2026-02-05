@@ -50,8 +50,6 @@ function ContentOne() {
   return (
     <>
     <head>
-      <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
-    
       {/* ================= SEO CODE (ADDED ONLY) ================= */}
         <title>CARDETAILING BRAND | Expert Car Repair & Maintenance Services</title>
 
