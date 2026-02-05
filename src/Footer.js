@@ -79,11 +79,10 @@ function Footer() {
           <ul className="Footer-main-container-divfour-ul">
             <li className="Footer-main-container-main-li"><b>Office</b></li>
             <li>cardetailingbrand.com</li>
-            <li>(603) 555-0123</li>
+            <li> +91 1234567890</li>
             <li>
-              4517 Washington Ave. <br />
-              Manchester, Kentucky <br />
-              39495
+              1234 Street Name, <br></br> City Name, State, Country
+              
             </li>
           </ul>
         </div>

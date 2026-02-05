@@ -48,7 +48,44 @@ function ContentOne() {
   };
 
   return (
-    <div className="Contentone-main-container">
+    <>
+    <head>
+    
+      {/* ================= SEO CODE (ADDED ONLY) ================= */}
+        <title>CARDETAILING BRAND | Expert Car Repair & Maintenance Services</title>
+
+        <meta
+          name="description"
+          content="CARDETAILING BRAND provides expert car repair, diagnostics, maintenance, and certified technician services. Trusted auto repair center with proven customer satisfaction."
+        />
+
+        <meta
+          name="keywords"
+          content="CARDETAILING BRAND, car repair, best ppf in car, best car detailing, ceramic coating car, about cars, cars, best car repairs, auto service center, engine diagnostics, vehicle maintenance, certified mechanics, brake repair, transmission service"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="CARDETAILING BRAND | Trusted Auto Repair Services" />
+        <meta
+          property="og:description"
+          content="Professional auto repair services with certified technicians. Engine diagnostics, mechanical repairs, and maintenance you can trust."
+        />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CARDETAILING BRAND | Expert Auto Repair" />
+        <meta
+          name="twitter:description"
+          content="Reliable auto repair and maintenance services backed by expert technicians."
+        />
+        </head>
+
+      {/* ================= END SEO CODE ================= */}
+          <div className="Contentone-main-container">
+
 
       {/* HERO */}
       <div className="Contentone-main-container-divone">
@@ -96,12 +133,12 @@ function ContentOne() {
       <div className='Contentone-main-container-divfive'>
         <div className='Contentone-main-container-divfive-divone'>
           <h3 className='Contentone-main-container-divfive-divone-h1'>Engine Diagnostics</h3>
-          <p>We use advanced diagnostic tools to quickly <br></br> identify engine issuse, warning lights, or <br></br> performance drops</p>
+          <p>We use advanced diagnostic tools to quickly <br /> identify engine issuse, warning lights, or <br /> performance drops</p>
         </div>
 
         <div className='Contentone-main-container-divfive-divtwo'>
           <h3 className='Contentone-main-container-divfive-divtwo-h1'>Mechanical Repairs</h3>
-          <p>From engine problems to transmission issues, <br></br> our expert mechanics diagnose and repair all <br></br> major mehanical systems.</p>
+          <p>From engine problems to transmission issues, <br /> our expert mechanics diagnose and repair all <br /> major mehanical systems.</p>
         </div>
       </div>
 
@@ -113,7 +150,7 @@ function ContentOne() {
 
         <div className='Contentone-main-container-divfive-divfour'>
           <h3 className='Contentone-main-container-divfive-divfour-h1'>routine Maintenance</h3>
-          <p>Keep your car running like new eith regular  oil change, filter replacement, tire rotations, and fluid checks.</p>
+          <p>Keep your car running like new eith regular oil change, filter replacement, tire rotations, and fluid checks.</p>
         </div>
       </div>
 
@@ -168,6 +205,7 @@ function ContentOne() {
       </div>
 
     </div>
+    </>
   );
 }
 
